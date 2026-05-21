@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "url": "https://github.com/k-drebin/teamgenerator/releases/latest/download/TeamGenerator.exe",
-  "notes": "Version 1.1.0 — Captain Mode. Pick captains and draft a 5-player roster per side from the player database (max 4 picks per team), with team name auto-fill, per-team color picker, total points readout once a side is full, and a Discord post that captures only the two team columns. Adds in-app update install with progress + auto-relaunch (future updates from 1.1.0 onward will install with one click). Window controls now match the tab pills along the header bar."
+  "notes": "Version 1.1.1 — Fixes the broken auto-updater. OBS-style flow now: confirm prompt, real download progress bar, then an in-place install with no cmd windows flashing on screen. Yes/No buttons on the update prompt are clickable again (the frameless-window event filter was eating the clicks). Also fixes a version-compare bug where 1.1.0 was being seen as newer than 1.1, which kept retriggering the update prompt on a current-version build."
 }
